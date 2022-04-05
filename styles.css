@@ -1,1 +1,99 @@
-/* Copy and paste your CSS from CodePen into here */
+body {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+    color: #404040;
+  }
+  p {
+    margin: 0px;
+  }
+  h1 {
+    font-size: 300px;
+    margin: 0px;
+    color: #4287f5;
+  }
+  h2 {
+    font-size: 60px;
+    line-height:1.4;
+  }
+  a {
+    color: #f0ec1a;
+  }
+  a:visited {
+    color: #f0ec1a;
+  }
+  ul {
+    max-width: 800px;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 3;
+  }
+  li {
+    margin: 16px 0;
+  }
+  blockquote {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "mono";
+    line-height: 1.8;
+  }
+  #containeryellow {
+    height: 120px;
+    margin: -40px 0px 0px;
+    position: relative;
+    background-color: #f0ec1a;
+  }
+  #containerblue {
+    height: 120px;
+    margin: 0px 0px 0px;
+    position: relative;
+    background-color: #1DA1F2;
+    opacity: 75%;
+  }
+  #containergrey {
+    height: 50px;
+    margin: 0px 0px 0px;
+    position: relative;
+    background-color: #202020;
+  }
+  #center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  #main {
+    padding: 15px;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  #img-caption {
+    margin: -100px 0 100px;
+    font-size: 16px;
+    font-family: "Times New Roman";
+    text-align: right;
+    padding: 0px 10% 0px 0px;
+  }
+  #twitterbird {
+  background-image: url("https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-jumbo-v4.jpg?quality=75&auto=webp");
+  background-color: #ffffff;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  }
